@@ -15,11 +15,21 @@ const MenuLinks = ({ isOpen }) => {
         direction={['columt', 'row', 'row', 'row']}
         pt={[4, 4, 0, 0]}
       >
-        <MenuItem to="/">Home</MenuItem>
-        <MenuItem to="/tentang">Tentang</MenuItem>
-        <MenuItem to="/mengapa">Mengapa</MenuItem>
-        <MenuItem to="/solusi">Solusi</MenuItem>
-        <MenuItem to="/produk">Produk</MenuItem>
+        <MenuItem color="black" to="/">
+          Home
+        </MenuItem>
+        <MenuItem color="black" to="/tentang">
+          Tentang
+        </MenuItem>
+        <MenuItem color="black" to="/mengapa">
+          Mengapa
+        </MenuItem>
+        <MenuItem color="black" to="/solusi">
+          Solusi
+        </MenuItem>
+        <MenuItem color="black" to="/produk">
+          Produk
+        </MenuItem>
       </Stack>
     </Box>
   );

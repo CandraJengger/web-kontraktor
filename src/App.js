@@ -1,5 +1,12 @@
+import React from 'react';
+import Navbar from './components/organisms/Navbar';
+
 function App() {
-  return <div className="App">Halo</div>;
+  return (
+    <>
+      <Navbar boxShadow="md" />
+    </>
+  );
 }
 
 export default App;

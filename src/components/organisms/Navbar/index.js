@@ -3,6 +3,7 @@ import Logo from '../../atoms/Logo';
 import MenuToggle from '../../atoms/MenuToggle';
 import NavbarContainer from '../../atoms/NavbarContainer';
 import MenuLinks from '../../moleculs/MenuLinks';
+import logo from '../../../assets/images/logo.svg';
 
 const Navbar = (props) => {
   const [isOpen, setIsOpen] = React.useState(false);
@@ -11,7 +12,7 @@ const Navbar = (props) => {
 
   return (
     <NavbarContainer {...props}>
-      <Logo w="100px" path="../../../assets/images/logo.svg" />
+      <Logo w="50px" path={logo} />
       <MenuToggle toggle={toggle} isOpen={isOpen} />
       <MenuLinks isOpen={isOpen} />
     </NavbarContainer>
