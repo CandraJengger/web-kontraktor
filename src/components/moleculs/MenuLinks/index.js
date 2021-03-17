@@ -12,7 +12,7 @@ const MenuLinks = ({ isOpen }) => {
         spacing={8}
         align="center"
         justify={['center', 'space-between', 'flex-end', 'flex-end']}
-        direction={['columt', 'row', 'row', 'row']}
+        direction={['column', 'row', 'row', 'row']}
         pt={[4, 4, 0, 0]}
       >
         <MenuItem color="black" to="/">
