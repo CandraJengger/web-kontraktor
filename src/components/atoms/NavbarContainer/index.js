@@ -4,6 +4,7 @@ import { Flex } from '@chakra-ui/react';
 const NavbarContainer = ({ children, ...props }) => {
   return (
     <Flex
+      position="fixed"
       as="nav"
       align="center"
       justify="space-between"
@@ -12,7 +13,7 @@ const NavbarContainer = ({ children, ...props }) => {
       mb={8}
       py={5}
       px={10}
-      bg={['primary.500', 'primary.500', 'transparent', 'transparent']}
+      bg="white"
       color={['white', 'white', 'primary.700', 'primary.700']}
       {...props}
     >

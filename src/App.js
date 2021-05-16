@@ -1,10 +1,11 @@
 import React from 'react';
-import { Navbar } from './components';
+import { Navbar, Hero } from './components';
 
 function App() {
   return (
     <>
       <Navbar boxShadow="md" />
+      <Hero />
     </>
   );
 }
