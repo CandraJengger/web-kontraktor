@@ -15,7 +15,7 @@ const Hero = ({ data = [] }) => {
         h="100%"
         inset="0"
         bgGradient="linear(to-r, rgba(0, 0, 0, 0.7), rgba(255, 255, 255, 0.2))"
-        px={{ base: '1rem', md: '6.5em' }}
+        px={{ base: '2.5rem', md: '6.5em' }}
         pt={{ base: 0, md: '5rem' }}
         zIndex="30"
       >
@@ -27,7 +27,7 @@ const Hero = ({ data = [] }) => {
           flexFlow="column"
         >
           <Text
-            fontSize={{ base: '2xl', sm: '3xl', md: '5xl' }}
+            fontSize={{ base: '3xl', sm: '3xl', md: '5xl' }}
             fontWeight="bold"
             as="h1"
             color="white"

@@ -10,7 +10,7 @@ const Navbar = (props) => {
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <NavbarContainer {...props}>
+    <NavbarContainer {...props} isOpen={isOpen}>
       <Logo w="50px" path={logo} />
       <MenuToggle toggle={toggle} isOpen={isOpen} />
       <MenuLinks isOpen={isOpen} />

@@ -9,7 +9,11 @@ const MenuToggle = ({ toggle, isOpen }) => {
       cursor="pointer"
       onClick={toggle}
     >
-      {isOpen ? <CloseIcon color="black" /> : <HamburgerIcon color="black" />}
+      {isOpen ? (
+        <CloseIcon color="black" />
+      ) : (
+        <HamburgerIcon fontSize="2rem" color={{ base: 'white', sm: 'black' }} />
+      )}
     </Box>
   );
 };

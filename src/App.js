@@ -22,7 +22,7 @@ const dataImage = [
 function App() {
   return (
     <>
-      <Navbar boxShadow="md" zIndex="999999" />
+      <Navbar boxShadow={{ base: 'none', sm: 'md' }} zIndex="999999" />
       <Hero data={dataImage} />
     </>
   );
