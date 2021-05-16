@@ -1,6 +1,6 @@
 import React from 'react';
 import { Box, Stack } from '@chakra-ui/react';
-import MenuItem from '../../atoms/MenuItem';
+import { MenuItem } from '../../atoms';
 
 const MenuLinks = ({ isOpen }) => {
   return (

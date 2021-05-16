@@ -1,9 +1,8 @@
 import React from 'react';
-import Logo from '../../atoms/Logo';
-import MenuToggle from '../../atoms/MenuToggle';
-import NavbarContainer from '../../atoms/NavbarContainer';
-import MenuLinks from '../../moleculs/MenuLinks';
 import logo from '../../../assets/images/logo.svg';
+
+import { Logo, NavbarContainer, MenuToggle } from '../../atoms';
+import { MenuLinks } from '../../moleculs';
 
 const Navbar = (props) => {
   const [isOpen, setIsOpen] = React.useState(false);
