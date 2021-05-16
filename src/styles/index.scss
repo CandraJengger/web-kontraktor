@@ -1,0 +1,19 @@
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+.link {
+  &::after {
+    content: '';
+    display: block;
+    width: 0;
+    max-width: 100px;
+    height: 3px;
+    margin: auto;
+    transition: all 200ms ease-in;
+    background-color: #e01028 !important;
+  }
+  &:hover::after {
+    width: 100%;
+  }
+}
