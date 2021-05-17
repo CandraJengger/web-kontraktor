@@ -14,7 +14,10 @@ const Hero = ({ data = [] }) => {
         w="100%"
         h="100%"
         inset="0"
-        bgGradient="linear(to-r, rgba(0, 0, 0, 0.7), rgba(255, 255, 255, 0.2))"
+        bgGradient={{
+          base: 'linear(to-r, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7))',
+          sm: 'linear(to-r, rgba(0, 0, 0, 0.7), rgba(255, 255, 255, 0.2))',
+        }}
         px={{ base: '2.5rem', md: '6.5em' }}
         pt={{ base: 0, md: '5rem' }}
         zIndex="30"
