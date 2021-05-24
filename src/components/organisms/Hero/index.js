@@ -43,7 +43,7 @@ const Hero = ({ data = [] }) => {
             Buka jam 08.00 s/d jam 21.00 , Sabtu, Minggu & Hari Besar Tutup
           </Text>
           <Gap width="1rem" height="2.6rem" />
-          <Button w={{ base: '100%', sm: '12rem' }} colorScheme="red">
+          <Button w={{ base: '100%', sm: '12rem' }} colorScheme="custom">
             Hubungi Kami
           </Button>
         </Flex>
