@@ -5,7 +5,7 @@ import { Box, Container, Flex, Image, Text } from '@chakra-ui/react';
 const index = () => {
   return (
     <Box as="section" h={{ base: '100vh', md: '525px' }}>
-      <Container maxW="container.lg" h="100%" px={{ base: '40px', md: '0' }}>
+      <Container maxW="container.lg" h="100%" px={{ base: '40px', md: '1rem' }}>
         <Flex
           h="100%"
           direction={{ base: 'column', md: 'row' }}
@@ -36,7 +36,7 @@ const index = () => {
             <Box
               position="absolute"
               d={{ base: 'none', md: 'block' }}
-              top="0"
+              top="28px"
               right="0"
               w="222px"
               h="100%"
@@ -47,6 +47,7 @@ const index = () => {
 
           <Image
             boxSize="524px"
+            h="100%"
             src={Architect}
             objectFit="cover"
             objectPosition="center"
