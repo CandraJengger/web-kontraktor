@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navbar, Hero, AboutUs } from './components';
+import { Navbar, Hero, AboutUs, GapBorder } from './components';
 import Hero1 from './assets/images/hero-1.jpg';
 import Hero2 from './assets/images/hero-2.jpg';
 import Hero3 from './assets/images/hero-3.jpg';
@@ -24,7 +24,9 @@ function App() {
     <>
       <Navbar boxShadow={{ base: 'none', sm: 'md' }} zIndex="999999" />
       <Hero data={dataImage} />
+      <GapBorder />
       <AboutUs />
+      <GapBorder side="right" />
     </>
   );
 }
