@@ -2,7 +2,7 @@ import React from 'react';
 import Architect from '../../../assets/images/arsitek.jpg';
 import { Box, Container, Flex, Image, Text } from '@chakra-ui/react';
 
-const index = () => {
+const AboutUs = () => {
   return (
     <Box as="section" h={{ base: '100vh', md: '525px' }}>
       <Container maxW="container.lg" h="100%" px={{ base: '40px', md: '1rem' }}>
@@ -58,4 +58,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default AboutUs;
