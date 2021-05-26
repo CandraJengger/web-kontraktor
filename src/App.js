@@ -3,6 +3,7 @@ import { Navbar, Hero, AboutUs, GapBorder } from './components';
 import Hero1 from './assets/images/hero-1.jpg';
 import Hero2 from './assets/images/hero-2.jpg';
 import Hero3 from './assets/images/hero-3.jpg';
+import WhyUs from './components/organisms/WhyUs';
 
 const dataImage = [
   {
@@ -27,6 +28,7 @@ function App() {
       <GapBorder />
       <AboutUs />
       <GapBorder side="right" />
+      <WhyUs />
     </>
   );
 }
