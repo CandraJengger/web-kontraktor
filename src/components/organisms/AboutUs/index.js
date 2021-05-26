@@ -49,6 +49,7 @@ const AboutUs = () => {
             boxSize="524px"
             h="100%"
             src={Architect}
+            alt="Architect Image"
             objectFit="cover"
             objectPosition="center"
           />
