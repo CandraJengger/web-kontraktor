@@ -1,10 +1,11 @@
 import React from 'react';
 import { Box, Container, Flex, Image, Text } from '@chakra-ui/react';
 import Image1 from '../../../assets/images/image-1.jpg';
+import { Card } from '../../moleculs';
 
 const WhyUs = () => {
   return (
-    <Box as="section" h={{ base: '100vh', md: '560px' }}>
+    <Box as="section" h={{ base: 'max-content', md: '560px' }}>
       <Container maxW="container.lg" h="100%" px={{ base: '40px', md: '1rem' }}>
         <Flex
           h="100%"
@@ -12,7 +13,12 @@ const WhyUs = () => {
           justifyContent="center"
           alignItems="center"
         >
-          <Box w={{ base: '100%', md: '461px' }} h="100%" position="relative">
+          <Box
+            w={{ base: '100%' }}
+            maxW={{ md: '391px' }}
+            h="100%"
+            position="relative"
+          >
             <Image
               src={Image1}
               w="100%"
@@ -48,7 +54,28 @@ const WhyUs = () => {
             </Flex>
           </Box>
 
-          <Box></Box>
+          <Flex
+            position="relative"
+            w="100%"
+            h="100%"
+            flexDirection="column"
+            alignItems="center"
+            p="1rem"
+          >
+            <Box
+              position="absolute"
+              d={{ base: 'none', md: 'block' }}
+              top="0"
+              left="0"
+              w="222px"
+              h="100%"
+              bg="gray.50"
+              zIndex="0"
+            />
+            <Card />
+            <Card />
+            <Card />
+          </Flex>
         </Flex>
       </Container>
     </Box>
